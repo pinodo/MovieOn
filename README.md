@@ -1,2 +1,7 @@
 # MovieOn
-KKB(김종식,강재영,부경준)팀 프로젝트
+
+Team members: Gyungjun Boo, Jaeyoung Kang, Jongsik Kim.
+
+As a member of a KKB team, which has three members, we made a movie booking site.
+
+Technologies used: HTML, CSS, JavaScript, jQuery, NodeJS, express, npm, git.
