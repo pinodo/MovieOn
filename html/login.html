@@ -1,0 +1,21 @@
+<div id="login-root">
+  <div id="login-overlay-bg"></div>
+  <div id="login-container">
+    <div id="login-section">
+      <div id="login-title">
+        <label>로그인</label>
+        <button onclick="OffLoginWindow()">
+          <span id="login-close-btn">X</span>
+        </button>
+      </div>
+      <section id="login-content">
+        <input id="login-id" type="text" placeholder="ID" />
+        <input id="login-password" type="password" placeholder="PASSWORD" />
+        <button onclick="OnLogin()">로그인</button>
+        <a id="login-signup" href="./signup.html"> 회원가입 </a>
+      </section>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="../style/login.css" />

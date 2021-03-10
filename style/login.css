@@ -1,0 +1,123 @@
+.no-scroll {
+  overflow: hidden;
+  margin-right: 24.5px !important;
+}
+
+#login-root {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 990;
+}
+
+#login-overlay-bg {
+  position: fixed;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 991;
+}
+#login-container {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
+
+#login-section {
+  position: relative;
+  width: 100%;
+  min-width: 200px;
+  max-width: 350px;
+  height: 260px;
+  background-color: white;
+  border-radius: 22px 22px 8px 8px;
+}
+#login-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: #272727;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+#login-title > label {
+  margin-left: 15px;
+  font-size: 14px;
+  color: white;
+}
+#login-title > button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background: none;
+  border: none;
+}
+#login-close-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 15px;
+  content: '';
+  font-size: 0;
+  background: url(../resource/image/icon/btn-close-header-notice.png) no-repeat
+    0 top;
+  cursor: pointer;
+}
+#login-title > button:hover #login-close-btn {
+  background-position-y: -15px;
+}
+#login-content {
+  width: 85%;
+  margin: 20px auto;
+}
+#login-content input {
+  margin: 5px 0;
+  padding: 0 5px;
+  width: calc(100% - 10px);
+  height: 35px;
+  border: 1px solid #dfdfdf;
+}
+#login-content button {
+  margin: 5px 0;
+  padding: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #272727;
+  border: none;
+  border-radius: 10px;
+  color: rgb(235, 235, 235);
+  cursor: pointer;
+  transition: color 0.4s, background-color 0.4s;
+}
+#login-content button:hover {
+  background-color: white;
+  border: 2px solid #272727;
+  color: #272727;
+  transition: color 0.4s, background-color 0.4s;
+}
+.login-ready__on button {
+  color: white;
+  background-color: #272727;
+}
+#login-signup {
+  float: right;
+  color: #272727;
+  font-weight: 300;
+}
